@@ -1,0 +1,44 @@
+Loaded Session Parameters
+ * Center Ratio =   0.0012
+ * Spread Factor=   1.0000
+ * Target de/dx =   3.8238 MeV/g-cm2
+ * MeV at Target= 190.2900
+ * Input layer-file= Ta2.nel;2
+ * Keithley-range = 20 nA
+ 
+ 
+    new-E    De/Dx    density    enter-E    E-lost   thicknes   layer
+  190.289993  3.823800  2.330000  190.300003  0.006200  0.002000  Si 6
+  190.300003  4.011000  0.001000  191.679993  1.376400  0.354000  air 5
+  191.679993  2.454900  16.600000  200.360001  8.687200  3.651000  Ta 4
+  200.360001  4.113100  1.420000  200.410004  0.048100  0.014000  kapton 3
+  200.410004  3.052700  8.960000  200.899994  0.485600  0.171000  Cu 2
+  200.899994  2.385600  16.600000  205.000000  4.103600  1.758000  Ta 1
+ 
+########### RUN 1: ###########  Tue Sep  9 14:37:15 2014
+ 
+ 
+  cen-ratio    de/dx   MeV    spr_fac    range   sem-calib  S2_stay_IN?
+>>   0.0012    3.8238  190.3   1.0000     20        1.255 .....NO
+  dose   fluence   nA*spd_fac   runtime   dose-rate     flux     total-dose   total-fluence
+  kRad    cm-2       nA           sec      kRad/sec    cm-2/sec    kRad          cm-2
+>>   0.006  9.432e+07     0.065    190.16     0.000  4.960e+05     0.006  9.4322e+07
+ 
+########### RUN 2: ###########  Tue Sep  9 14:42:59 2014
+ 
+ 
+  cen-ratio    de/dx   MeV    spr_fac    range   sem-calib  S2_stay_IN?
+>>   0.0012    3.8238  190.3   1.0000     20        1.255 .....NO
+  dose   fluence   nA*spd_fac   runtime   dose-rate     flux     total-dose   total-fluence
+  kRad    cm-2       nA           sec      kRad/sec    cm-2/sec    kRad          cm-2
+>>   0.001  1.605e+07     0.047     44.39     0.000  3.615e+05     0.007  1.1037e+08
+ 
+########### RUN 3: ###########  Tue Sep  9 14:52:30 2014
+ 
+ 
+  cen-ratio    de/dx   MeV    spr_fac    range   sem-calib  S2_stay_IN?
+>>   0.0012    3.8238  190.3   1.0000     20        1.255 .....NO
+  dose   fluence   nA*spd_fac   runtime   dose-rate     flux     total-dose   total-fluence
+  kRad    cm-2       nA           sec      kRad/sec    cm-2/sec    kRad          cm-2
+>>   0.006  9.103e+07     0.082    143.35     0.000  6.350e+05     0.012  2.0140e+08
+
